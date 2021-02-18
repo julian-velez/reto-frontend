@@ -1,0 +1,1128 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&display=swap");
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+  }
+
+  .wrapper {
+    position: relative;
+    background: url("../images/desktop/image-hero.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 80vh;
+  }
+
+
+  .wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 80vh;
+  }
+
+
+  .wrapper * {
+    position: relative;
+    color: #fff;
+  }
+
+
+  .wrapper header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 3rem;
+    width: 80%;
+    max-width: 80%;
+  }
+
+
+
+
+  .wrapper header nav .col-2 ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+  }
+
+
+.wrapper header nav .col-2 ul li {
+  padding: 1rem;
+}
+
+.wrapper header nav .col-2 ul li a {
+  font-family: "Alata", sans-serif;
+  text-decoration: none;
+}
+
+
+
+
+
+
+  .wrapper header nav .col-2 ul li {
+  padding: 1rem;
+}
+
+.wrapper header nav .col-2 ul li a {
+  font-family: "Alata", sans-serif;
+  text-decoration: none;
+}
+
+
+
+.wrapper header nav .col-2 ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .wrapper header nav .col-2 i {
+    display: none;
+  }
+
+
+
+  
+.wrapper header .heading {
+    position: absolute;
+    top: 160px;
+    left: 185px;
+    border: 1px solid #fff;
+    font-size: 3.2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
+    padding: 3rem;
+    letter-spacing: 1px;
+    width: 40%;
+    text-transform: uppercase;
+  }
+
+
+  .wrapper header .heading h1 {
+    font-size: 6rem;
+    width: 35%;
+  }
+  
+  section {
+    margin: 17rem auto;
+    padding: 1rem;
+    width: 85%;
+  }
+
+
+
+  
+section h2 {
+    color: #1e1e1e;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    max-width: 100%;
+  }
+  
+  section.interactive {
+    position: relative;
+    width: 90%;
+    height: auto;
+  }
+
+
+
+
+  section.interactive div img.mobile {
+    display: none;
+  }
+  
+  section.interactive .contents {
+    background-color: #fff;
+    padding: 7rem;
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    max-width: 50%;
+    height: auto;
+  }
+
+
+
+  section.interactive .contents p {
+    color: #4c4c4c;
+    line-height: 1.8;
+    font-size: 1.6rem;
+    font-family: "Josefin Sans", sans-serif;
+    max-width: 100%;
+  }
+  
+  section .flex {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+    width: 97.5%;
+    margin-bottom: 2rem;
+  }
+
+
+
+  section div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section div.bot .btn-bot {
+    display: none;
+    margin-top: 3rem;
+  }
+
+
+  section div button {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    background-color: #fff;
+    margin: 0;
+    padding: 1rem;
+    width: 15rem;
+    text-transform: uppercase;
+    outline: none;
+  }
+  
+  section div button:hover {
+    background-color: #333;
+    border: none;
+    outline: none;
+    color: #fff;
+  }
+
+
+
+  section .grid-wrapper .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 4rem;
+  }
+  
+  section .grid-wrapper .grid div .mobile {
+    display: none;
+  }
+  
+  section .grid-wrapper .grid figure {
+    position: relative;
+  }
+
+
+  section .grid-wrapper .grid figure img {
+    -webkit-filter: brightness(58%);
+            filter: brightness(58%);
+  }
+  
+  section .grid-wrapper .grid figure figcaption {
+    color: #fff;
+    position: absolute;
+    top: 34rem;
+    left: 3rem;
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 65%;
+    max-width: 80%;
+  }
+
+
+  section .grid-wrapper .grid figure:hover img {
+    opacity: 0.7;
+  }
+  
+  section .grid-wrapper .grid figure:hover figcaption {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 0;
+    width: 100%;
+    height: auto;
+  }
+
+  footer .f-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+  
+footer .f-wrapper .f-contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+
+
+  footer .f-wrapper .f-contents .col-1 .links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin: 2rem 0 0;
+  }
+  
+  footer .f-wrapper .f-contents .col-1 .links ul li {
+    padding: 0.5rem;
+  }
+
+
+  footer .f-wrapper .f-contents .col-1 .links ul li a {
+    color: #fff;
+    font-family: "Alata", sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  
+  footer .f-wrapper .f-contents .col-1 .links ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+
+
+  footer .f-wrapper .f-contents .col-2 {
+    font-size: 2rem;
+  }
+  
+  footer .f-wrapper .f-contents .col-2 .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  footer .f-wrapper .f-contents .col-2 .icons i {
+    font-size: 2.8rem;
+    padding-right: 1rem;
+  }
+  
+  footer .f-wrapper .f-contents .col-2 div p {
+    color: #4c4c4c;
+    font-size: 1.5rem;
+    margin-top: 2.9rem;
+    font-family: "Alata", sans-serif;
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .wrapper header {
+      position: relative;
+      padding: 4rem 0 0;
+      width: 100%;
+      max-width: 100%;
+    }
+
+
+    .wrapper header nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-size: 2rem;
+        margin: 0 auto;
+        padding: 3rem;
+        width: 95%;
+      }
+
+
+
+
+
+      .wrapper header nav .col-2 ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+      }
+      .wrapper header nav .col-2 ul li {
+        padding: 1rem;
+      }
+      .wrapper header nav .col-2 ul li a {
+        font-family: "Alata", sans-serif;
+        text-decoration: none;
+      }
+      .wrapper header nav .col-2 ul li a:hover {
+        border-bottom: 2px solid #fff;
+      }
+      .wrapper header nav .col-2 i {
+        display: none;
+      }
+      .wrapper header nav .col-2 i.close {
+        display: none;
+      }
+      .wrapper header .heading {
+        position: absolute;
+        top: 360px;
+        left: 105px;
+        border: 1px solid #fff;
+        font-size: 3.2rem;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 100;
+        padding: 10rem;
+        letter-spacing: 1px;
+        width: 80%;
+        text-transform: uppercase;
+      }
+      .wrapper header .heading h1 {
+        font-size: 6rem;
+        width: 35%;
+      }
+      section {
+        margin: 10rem auto;
+        padding: 1rem;
+        width: 85%;
+      }
+      section h2 {
+        color: #1e1e1e;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: 2px;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        max-width: 100%;
+      }
+      section.interactive {
+        position: relative;
+        width: 90%;
+        height: auto;
+      }
+      section.interactive div img.mobile {
+        display: none;
+      }
+      section.interactive .contents {
+        background-color: #fff;
+        padding: 7rem 5rem;
+        position: absolute;
+        top: 225px;
+        left: 350px;
+        width: 65%;
+        max-width: 70%;
+      }
+      section.interactive .contents p {
+        color: #4c4c4c;
+        line-height: 1.8;
+        font-size: 1.6rem;
+        font-family: "Josefin Sans", sans-serif;
+        max-width: 100%;
+      }
+      section .flex {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        text-align: center;
+        width: 97.5%;
+        margin-bottom: 2rem;
+      }
+      section .grid-wrapper {
+        width: 100%;
+      }
+      section .grid-wrapper .grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (1fr)[1];
+            grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3rem;
+      }
+      section .grid-wrapper .grid figure {
+        position: relative;
+      }
+      section .grid-wrapper .grid figure img {
+        -webkit-filter: brightness(58%);
+                filter: brightness(58%);
+      }
+      section .grid-wrapper .grid figure img.desktop {
+        display: none;
+      }
+      section .grid-wrapper .grid figure img.mobile {
+        display: block;
+        width: 100%;
+      }
+      section .grid-wrapper .grid figure figcaption {
+        position: absolute;
+        top: 15rem;
+        left: 3rem;
+        font-size: 4.5rem;
+        width: 55%;
+        max-width: 80%;
+      }
+      section .grid-wrapper .grid figure:hover img {
+        opacity: 0.7;
+      }
+      section .grid-wrapper .grid figure:hover figcaption {
+        color: #000;
+        font-weight: bold;
+      }
+      footer {
+        background-color: #000;
+        color: #fff;
+        padding: 4rem 0;
+        width: 100%;
+        height: 550px;
+      }
+      footer .f-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0 auto;
+        width: 80%;
+      }
+      footer .f-wrapper .f-contents {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 100%;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        margin: 2rem 0 0;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul li {
+        padding: 0.5rem;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul li a {
+        color: #fff;
+        font-family: "Alata", sans-serif;
+        font-size: 1.6rem;
+        text-decoration: none;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul li a:hover {
+        border-bottom: 2px solid #fff;
+      }
+      footer .f-wrapper .f-contents .col-2 {
+        font-size: 2rem;
+      }
+      footer .f-wrapper .f-contents .col-2 .icons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+      }
+      footer .f-wrapper .f-contents .col-2 .icons i {
+        font-size: 2.8rem;
+        padding-right: 1rem;
+      }
+      footer .f-wrapper .f-contents .col-2 div p {
+        color: #4c4c4c;
+        font-size: 1.5rem;
+        margin-top: 2.9rem;
+        font-family: "Alata", sans-serif;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      .wrapper {
+        width: 80%;
+        position: relative;
+        background: url("../images/mobile/image-hero.jpg") no-repeat center center/cover;
+        width: 100%;
+        height: 80vh;
+        margin-bottom: 4rem;
+      }
+      .wrapper.active {
+        background: #000;
+        width: 100%;
+        height: 100vh;
+      }
+      .wrapper.active .heading {
+        top: 0;
+        left: 0;
+        border: none;
+        padding: 5rem 4rem;
+        margin-top: 2.5rem;
+        width: 82%;
+      }
+      .wrapper.active .heading ul {
+        display: block;
+        list-style: none;
+      }
+      .wrapper.active .heading ul li {
+        padding: 1.5rem;
+      }
+      .wrapper.active .heading ul li a {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2.4rem;
+        font-weight: 300;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .wrapper.active .heading ul li a:hover {
+        border-bottom: 1px solid #fff;
+      }
+      .wrapper.active .col-2 ul {
+        display: none;
+      }
+      .wrapper.active .col-2 ul li {
+        font-size: 2.4rem;
+      }
+      .wrapper.active .col-2 i.open {
+        display: none;
+      }
+      .wrapper.active .col-2 i.close {
+        display: block;
+      }
+      .wrapper header {
+        position: relative;
+        padding: 2.5rem;
+        width: 100%;
+      }
+      .wrapper header nav {
+        font-size: 1rem;
+        margin: 0 auto;
+        padding: 2.4rem;
+        width: 98%;
+        max-width: 98%;
+      }
+      .wrapper header nav .col-2 ul {
+        display: none;
+        list-style: none;
+      }
+      .wrapper header nav .col-2 i {
+        display: block;
+        font-size: 2.8rem;
+      }
+      .wrapper header .heading {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: absolute;
+        top: 30rem;
+        left: 12rem;
+        width: 70%;
+        height: 250px;
+        padding: 0;
+        margin: 0 auto;
+      }
+      .wrapper header .heading .main-head {
+        font-size: 3.8rem;
+        padding: 4.5rem;
+        width: 100%;
+      }
+      section {
+        margin: 5rem auto;
+        padding: 1rem;
+        width: 80%;
+        height: auto;
+      }
+      section h2 {
+        color: #1e1e1e;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 1.1;
+        width: 100%;
+      }
+      section.interactive {
+        position: static;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 80%;
+        max-width: 95%;
+        margin: 0 auto;
+      }
+      section.interactive div img.desktop {
+        display: none;
+      }
+      section.interactive div img.mobile {
+        display: block;
+        width: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+      section.interactive .contents {
+        padding: 1rem;
+        position: static;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        top: 0;
+        left: 0;
+        width: 95%;
+      }
+      section.interactive .contents h2 {
+        font-size: 3.6rem;
+        font-weight: 300;
+        margin-top: 3.5rem;
+        text-align: center;
+      }
+      section.interactive .contents p {
+        color: #666666;
+        line-height: 1.7;
+        font-size: 1.6rem;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+      }
+      section .flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 100%;
+        margin: 2rem 0 1.5rem;
+      }
+      section .flex div {
+        margin: 0;
+        padding: 0;
+      }
+      section .flex div h2 {
+        font-size: 3.6rem;
+        font-weight: 300;
+      }
+      section div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      section div button {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 1.6rem;
+        background-color: #fff;
+        margin: 0;
+        padding: 1rem;
+        width: 15rem;
+      }
+      section div button.right {
+        display: none;
+      }
+      section div.bot .btn-bot {
+        display: block;
+        margin-top: 3rem;
+        width: 20rem;
+      }
+      section .grid-wrapper .grid {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (1fr)[1];
+            grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3rem;
+      }
+      section .grid-wrapper .grid figure {
+        position: relative;
+      }
+      section .grid-wrapper .grid figure img {
+        -webkit-filter: brightness(58%);
+                filter: brightness(58%);
+      }
+      section .grid-wrapper .grid figure img.desktop {
+        display: none;
+      }
+      section .grid-wrapper .grid figure img.mobile {
+        display: block;
+        width: 100%;
+      }
+      section .grid-wrapper .grid figure figcaption {
+        position: absolute;
+        top: 6.2rem;
+        left: 3rem;
+        font-size: 3rem;
+        width: 40%;
+        max-width: 80%;
+      }
+      section .grid-wrapper .grid figure:hover img {
+        opacity: 0.7;
+      }
+      section .grid-wrapper .grid figure:hover figcaption {
+        color: #000;
+        font-weight: bold;
+      }
+      footer {
+        padding: 8rem 0;
+      }
+      footer .f-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0 auto;
+      }
+      footer .f-wrapper .f-contents {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul li {
+        padding: 1rem;
+      }
+      footer .f-wrapper .f-contents .col-1 .links ul li a {
+        font-size: 1.8rem;
+      }
+      footer .f-wrapper .f-contents .col-2 {
+        font-size: 2rem;
+        margin: 3rem 0 0;
+      }
+      footer .f-wrapper .f-contents .col-2 .icons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      footer .f-wrapper .f-contents .col-2 .icons i {
+        font-size: 2.8rem;
+        padding-right: 1rem;
+      }
+      footer .f-wrapper .f-contents .col-2 div p {
+        color: #4c4c4c;
+        font-size: 1.5rem;
+        margin-top: 2.9rem;
+        font-family: "Alata", sans-serif;
+        text-align: center;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .wrapper header {
+        padding: 1rem 0;
+      }
+      .wrapper header nav {
+        padding: 1.8rem;
+      }
+      .wrapper header .heading {
+        top: 17rem;
+        left: 4.2rem;
+        width: 80%;
+        max-width: 90%;
+      }
+      .wrapper header .heading .main-head {
+        font-size: 2.7rem;
+        padding: 4.5rem 4.5rem 4.5rem 3rem;
+        width: 95%;
+      }
+      section.interactive .contents h2 {
+        font-size: 2.4rem;
+        text-align: center;
+        width: 100%;
+      }
+      section .grid-wrapper .grid {
+        grid-row-gap: 2rem;
+      }
+      section .grid-wrapper .grid figure figcaption {
+        top: 4rem;
+        left: 1.5rem;
+        font-size: 2rem;
+      }
+    }
+    /*# sourceMappingURL=styles.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
